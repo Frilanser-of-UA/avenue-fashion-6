@@ -4815,7 +4815,6 @@ body.ie ._ibg img {
         -ms-flex: 0 0 35%;
             flex: 0 0 35%;
     height: 200px;
-    padding: auto 0px 0px 0px;
     -ms-flex-item-align: end;
         align-self: flex-end;
   }

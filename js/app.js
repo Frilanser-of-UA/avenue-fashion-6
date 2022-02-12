@@ -189,6 +189,15 @@ reatingItemsArray.forEach(item =>
 		item.parentNode.dataset.totalValue = itemValue;
 	})
 );
+const simplebar = document.querySelectorAll('.simplebar')
+if (simplebar) {
+	simplebar.forEach(el => {
+		new SimpleBar(el, {
+		},
+		)
+	});
+}
+
 const productsBtn = document.querySelectorAll('.btn-card');
 const cartProductsList = document.querySelector('.cart__list');
 const cart = document.querySelector('.cart');
